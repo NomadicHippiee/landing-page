@@ -1,0 +1,32 @@
+* {
+    outline: 1px dotted black;
+    font-family: Roboto;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+section {
+    flex: 1;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
