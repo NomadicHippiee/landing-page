@@ -1,6 +1,9 @@
 * {
   /* outline: 1px dotted black; */
   font-family: Roboto;
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
 }
 
 body {
@@ -16,7 +19,7 @@ header {
   background-color: #1f2937;
   color: #f9faf8;
   font-weight: 900;
-  padding: 0px 50px;
+  padding: 0px 168px;
   position: sticky;
 }
 
@@ -68,8 +71,8 @@ div.placeholder {
 }
 
 section {
-  flex: 1;
-  padding: 0px 50px;
+  padding: 0px 168px;
+  flex: 1 1 0px;
 }
 
 .flex-container {
@@ -78,42 +81,62 @@ section {
   justify-content: flex-start;
   align-items: center;
   color: #1f2937;
-  padding: 0px 100px;
+  padding: 0px 168px;
 }
 
 .container {
-    display: flex;
-    gap: 16px;
-    width: 550px;
+  display: flex;
+  gap: 16px;
+  width: 550px;
 }
 
 .box {
-    width: 75px; 
-    height: 75px;
-    background-color: #828891;
-    border-radius: 15px;
-    opacity: 0,7;
+  width: 75px;
+  height: 75px;
+  background-color: #828891;
+  border-radius: 15px;
+  opacity: 0, 7;
 }
 
 .container div {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 section.quote {
   background-color: #e5e7eb;
-  font-size: 32px;
+  font-size: 26px;
   font-weight: 300;
   color: #1f2937;
+  padding: 0px 168px;
+  display: flex;
+  align-items: center;
 }
 
 section.hero {
   background-color: #1f2937;
   color: #f9faf8;
 }
+
+#signup {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.signup {
+  display: flex;
+  padding: 28px 158px;
+  gap: 16px;
+  background-color: #3882F6;
+  border-radius: 15px;
+  align-items: center;
+
+}
+
+
 
 footer {
   display: flex;
